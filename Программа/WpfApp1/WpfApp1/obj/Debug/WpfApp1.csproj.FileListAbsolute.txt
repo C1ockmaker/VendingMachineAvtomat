@@ -1,0 +1,43 @@
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\3-18_12\Desktop\Работа\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\Admin.g.cs
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\Admin.baml
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\Interop.LCC11.dll
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\Proverka.g.cs
+C:\Users\79776\Desktop\Задания недели\WpfApp1\WpfApp1\obj\Debug\Proverka.baml

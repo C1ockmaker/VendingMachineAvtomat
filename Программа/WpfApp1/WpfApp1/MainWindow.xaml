@@ -1,0 +1,64 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MaxWidth="800" MaxHeight="450" MinWidth="800" MinHeight="450">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="553*"/>
+            <ColumnDefinition Width="241*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Column="1" HorizontalAlignment="Left" Height="434" Margin="0.2,-14,-0.4,0" VerticalAlignment="Top" Width="241" VerticalGridLinesBrush="#FF8B8080" Background="#FF838383" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button x:Name="bt1"  Content="1" Grid.Column="1" HorizontalAlignment="Left" Margin="60.2,100,0,0" VerticalAlignment="Top" Width="59" Height="52" Background="#FF515151" FontFamily="Times New Roman" FontSize="20" RenderTransformOrigin="1,1" Foreground="White" Click="Button_Click "/>
+        <Button x:Name="bt3" Content="5" Grid.Column="1" HorizontalAlignment="Left" Margin="61.2,157,0,0" VerticalAlignment="Top" Width="59" Height="52" RenderTransformOrigin="1,1" Background="#FF515151" FontFamily="Times New Roman" FontSize="20" Foreground="White" Click="Button_Click_2"/>
+        <Button x:Name="bt2" Content="2" Grid.Column="1" HorizontalAlignment="Left" Margin="124.2,100,0,0" VerticalAlignment="Top" Width="59" Height="52" Background="#FF515151" FontFamily="Times New Roman" FontSize="20" RenderTransformOrigin="1,1" Foreground="White" Click="Button_Click_1"/>
+        <ListBox HorizontalAlignment="Left" Height="61" VerticalAlignment="Top" Width="202" Margin="22.2,14,0,0" Foreground="#FF4B0101" BorderBrush="#FF3E7460" Background="#FF3E7460" Grid.Column="1"/>
+        <Button x:Name="bt4" Content="10" Grid.Column="1" HorizontalAlignment="Left" Margin="124.2,157,0,0" VerticalAlignment="Top" Width="59" Height="52" Background="#FF515151" FontFamily="Times New Roman" FontSize="20" RenderTransformOrigin="1,1" Foreground="White" Click="Button_Click_3"/>
+        <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="105" Margin="53.2,236,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="0.625,-0.21" Background="#FF838383" BorderBrush="Black"/>
+        <Label Content="1.Внести деньги.&#xA;&#xA;2.Выберите напиток.&#xA;     (двойной клик)&#xD;&#xA;&#xA;3.Получить сдачу." HorizontalAlignment="Left" Grid.Column="1" Margin="53.2,236,0,68" Width="135" FontFamily="Times New Roman" FontSize="14"/>
+        <Button Content="Сдача" Grid.Column="1" HorizontalAlignment="Left" Margin="60.2,357,0,0" VerticalAlignment="Top" Width="134" Height="52" Background="#FF515151" FontFamily="Times New Roman" FontSize="20" RenderTransformOrigin="1,1" Foreground="White" Click="Button_Click_4"/>
+        <ListView  Name="lv1"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" Height="396" VerticalAlignment="Top" Width="533" Margin="10,14,0,0 " ScrollViewer.CanContentScroll="False" MouseDoubleClick="Lv1_MouseDoubleClick"  >
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="15" Width="100" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="140"/>
+                            <RowDefinition Height="auto"/>
+
+                        </Grid.RowDefinitions>
+                        <Border BorderThickness="1"  BorderBrush="#FF000000" CornerRadius="3,3,3,3">
+                            <Image Width="120" Height="100" Stretch="Uniform" Margin="1" HorizontalAlignment="Center">
+                                <Image.Source>
+                                    <Binding Path="image">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>Resources/Napitok.png</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                        </Border>
+                        <TextBlock Name="tb4" Text="{Binding Name}" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock x:Name="tb2" Text="{Binding Cost}" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock x:Name="tb3" HorizontalAlignment="Left" TextWrapping = "Wrap" Text="0" VerticalAlignment="Top" Grid.Column="1" Margin="111.2,31,0,0" FontSize="22"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Margin="3.2,357,0,0" Height="52" Click="Button_Click_5" Grid.Column="1">
+            <StackPanel>
+                <Image x:Name="img2" Source="Resources/img_358610.png" Height="50" Width="40" Stretch="Fill"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
